@@ -1,0 +1,42 @@
+@charset "utf-8";
+.color-text{
+    color:#db5454 ;
+    font-size: 1rem;
+    padding-top: 20%;
+}
+.headline{
+    padding: 0 0.5rem;
+}
+
+.oneChange{
+    width: 23%;
+    text-align: center;
+    padding: 1.5rem 5% 0 5%;
+}
+.headImg{
+    width: 100%;
+}
+.textGame{
+    text-align: center;
+    color: #878787;
+}
+.changeGame{
+    padding: 0 3%;
+}
+.linetime{
+    display: block;
+}
+.location-bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1rem;
+}
+@media screen and (min-width: 640px) {
+    .color-text{
+        font-size: 14px!important;
+    }
+}
